@@ -1,4 +1,4 @@
-# crypto-discord
+# Crypto-Discord
 
 ![](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Farshetamine%2Fcrypto-discord&count_bg=%23A4B6F7&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
 
@@ -20,8 +20,10 @@ $ python3 main.py
 ```
 $ nano .env
 
+TIMEZONE = 'Europe/XXX'
 EXCHANGE_RATES_API = 'https://api.coingecko.com/api/v3/simple/price?'
-DISCORD_TRX = [YOUR WEBHOOK FOR TRON ALERTS]
-DISCORD_SOL = [YOUR WEBHOOK FOR SOLANA ALERTS]
+GIPHY_API = [YOUR GIPHY API KEY]
+DISCORD_WHOOK_TRX = [YOUR WEBHOOK FOR TRON ALERTS]
+DISCORD_WHOOK_SOL = [YOUR WEBHOOK FOR SOLANA ALERTS]
 
 ```
